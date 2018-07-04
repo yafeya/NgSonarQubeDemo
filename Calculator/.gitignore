@@ -44,3 +44,6 @@ Thumbs.db
 # angular-cli file
 package-lock.json
 
+#package temp file
+.ng_pkg_build/
+dist.tgz
