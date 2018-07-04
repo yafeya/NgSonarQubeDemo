@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { CalculatorModule } from 'calculator'
+
 import * as Services from '../services/index'
 
 
@@ -12,7 +14,7 @@ import * as Services from '../services/index'
     AppComponent
   ],
   imports: [
-    BrowserModule, FormsModule
+    BrowserModule, FormsModule, CalculatorModule
   ],
   providers: [{provide: Services.TourServiceToken, useClass: Services.TourService}],
   bootstrap: [AppComponent]

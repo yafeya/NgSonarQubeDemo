@@ -8,13 +8,19 @@
 <h2>Here are some links to help you start: </h2>
 <ul>
   <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
+    <h2>
+      <a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a>
+    </h2>
   </li>
   <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
+    <h2>
+      <a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a>
+    </h2>
   </li>
   <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
+    <h2>
+      <a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a>
+    </h2>
   </li>
 </ul>
 
@@ -24,3 +30,16 @@
   <button id="button3">Click Me, I'm Button3.</button>
 </div>
 
+<div>
+  <label>Number1: </label>
+  <input type="text" [(ngModel)]="Number1">
+  <label>Number2: </label>
+  <input type="text" [(ngModel)]="Number2">
+</div>
+<div>
+  <button id="btn-calculate" (click)="GetCalculateResults()">Click Here to Get Result...</button>
+</div>
+<div>
+  <textarea type="text" rows="10" cols="60" [(ngModel)]="Results">
+  </textarea>
+</div>
