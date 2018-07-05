@@ -66,4 +66,9 @@ describe('AppComponent', () => {
     let result = calculator.Divide(100, 0);
     expect(String(result)).toBe(String(NaN));
   }));
+  it('Failure Test', async(() => {
+    let calculator = new CalculateService();
+    let result = calculator.Divide(100, 50);
+    expect(String(result)).toBe(String(NaN));
+  }));
 });
