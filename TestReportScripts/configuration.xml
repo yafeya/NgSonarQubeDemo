@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sonar_projects sonar="NgSonarQubeDemo" version="0.0.1" baseDir="..">
+	<project>
+		<dir>Calculator</dir>
+		<source_dir>src</source_dir>
+		<test_dir>src</test_dir>
+		<tslint_path>report.json</tslint_path>
+		<lcov_path>coverage/lcov.info</lcov_path>
+		<execution_path>reports/ut_report.xml</execution_path>
+	</project>
+	<project>
+		<dir>EnjoyHintDemo</dir>
+		<source_dir>src</source_dir>
+		<test_dir>src</test_dir>
+		<tslint_path>report.json</tslint_path>
+		<lcov_path>coverage/lcov.info</lcov_path>
+		<execution_path>reports/ut_report.xml</execution_path>
+	</project>
+</sonar_projects>

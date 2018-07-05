@@ -1,0 +1,1 @@
+sonar-scanner -Dproject.settings=sonar_NgSonarQubeDemo.properties
